@@ -17,21 +17,19 @@
 		4D46965D18157BB4001368CF /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4D46965B18157BB4001368CF /* InfoPlist.strings */; };
 		4D46965F18157BB4001368CF /* loginTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D46965E18157BB4001368CF /* loginTests.m */; };
 		4D46969318157C4E001368CF /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D46968218157C01001368CF /* CoreFoundation.framework */; };
-		4D46969918157C4E001368CF /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4D46969718157C4E001368CF /* InfoPlist.strings */; };
 		4D4696A118157C78001368CF /* login_view.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D46969F18157C78001368CF /* login_view.m */; };
 		4D4696A218157C84001368CF /* login_view.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4D4696A018157C78001368CF /* login_view.xib */; };
-		4D4696D318157D6B001368CF /* background.png in Resources */ = {isa = PBXBuildFile; fileRef = 4D4696C718157D4F001368CF /* background.png */; };
-		4D4696D418157D6B001368CF /* bench.png in Resources */ = {isa = PBXBuildFile; fileRef = 4D4696C818157D4F001368CF /* bench.png */; };
-		4D4696D518157D6B001368CF /* button.png in Resources */ = {isa = PBXBuildFile; fileRef = 4D4696C918157D4F001368CF /* button.png */; };
-		4D4696D618157D6B001368CF /* close.png in Resources */ = {isa = PBXBuildFile; fileRef = 4D4696CA18157D4F001368CF /* close.png */; };
-		4D4696D718157D6B001368CF /* connect_btn.png in Resources */ = {isa = PBXBuildFile; fileRef = 4D4696CB18157D4F001368CF /* connect_btn.png */; };
-		4D4696D818157D6B001368CF /* KeyIos.png in Resources */ = {isa = PBXBuildFile; fileRef = 4D4696CC18157D4F001368CF /* KeyIos.png */; };
-		4D4696D918157D6B001368CF /* login_background.png in Resources */ = {isa = PBXBuildFile; fileRef = 4D4696CD18157D4F001368CF /* login_background.png */; };
-		4D4696DA18157D6B001368CF /* login_tabbar_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 4D4696CE18157D4F001368CF /* login_tabbar_icon.png */; };
-		4D4696DB18157D6B001368CF /* MACRO.h in Resources */ = {isa = PBXBuildFile; fileRef = 4D4696CF18157D4F001368CF /* MACRO.h */; };
-		4D4696DC18157D6B001368CF /* pictureframe.png in Resources */ = {isa = PBXBuildFile; fileRef = 4D4696D018157D4F001368CF /* pictureframe.png */; };
-		4D4696DD18157D6B001368CF /* placeholder.png in Resources */ = {isa = PBXBuildFile; fileRef = 4D4696D118157D4F001368CF /* placeholder.png */; };
-		4D4696DE18157D6B001368CF /* Polaroid.png in Resources */ = {isa = PBXBuildFile; fileRef = 4D4696D218157D4F001368CF /* Polaroid.png */; };
+		4DDB489F1816791B00993975 /* background.png in Resources */ = {isa = PBXBuildFile; fileRef = 4D4696C718157D4F001368CF /* background.png */; };
+		4DDB48A01816791B00993975 /* bench.png in Resources */ = {isa = PBXBuildFile; fileRef = 4D4696C818157D4F001368CF /* bench.png */; };
+		4DDB48A11816791B00993975 /* button.png in Resources */ = {isa = PBXBuildFile; fileRef = 4D4696C918157D4F001368CF /* button.png */; };
+		4DDB48A21816791B00993975 /* close.png in Resources */ = {isa = PBXBuildFile; fileRef = 4D4696CA18157D4F001368CF /* close.png */; };
+		4DDB48A31816791B00993975 /* connect_btn.png in Resources */ = {isa = PBXBuildFile; fileRef = 4D4696CB18157D4F001368CF /* connect_btn.png */; };
+		4DDB48A41816791B00993975 /* KeyIos.png in Resources */ = {isa = PBXBuildFile; fileRef = 4D4696CC18157D4F001368CF /* KeyIos.png */; };
+		4DDB48A51816791B00993975 /* login_background.png in Resources */ = {isa = PBXBuildFile; fileRef = 4D4696CD18157D4F001368CF /* login_background.png */; };
+		4DDB48A61816791B00993975 /* login_tabbar_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 4D4696CE18157D4F001368CF /* login_tabbar_icon.png */; };
+		4DDB48A71816791B00993975 /* MACRO.h in Resources */ = {isa = PBXBuildFile; fileRef = 4D4696CF18157D4F001368CF /* MACRO.h */; };
+		4DDB48A81816791B00993975 /* pictureframe.png in Resources */ = {isa = PBXBuildFile; fileRef = 4D4696D018157D4F001368CF /* pictureframe.png */; };
+		4DDB48A91816791B00993975 /* Polaroid.png in Resources */ = {isa = PBXBuildFile; fileRef = 4D4696D218157D4F001368CF /* Polaroid.png */; };
 		E195DC47AE0F49B1BFA2EA77 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D440057B1A564E7996EC3925 /* libPods.a */; };
 /* End PBXBuildFile section */
 
@@ -217,6 +215,7 @@
 		4D46969418157C4E001368CF /* loginBundle */ = {
 			isa = PBXGroup;
 			children = (
+				4D4696D118157D4F001368CF /* placeholder.png */,
 				4D4696A018157C78001368CF /* login_view.xib */,
 				4D4696C718157D4F001368CF /* background.png */,
 				4D4696C818157D4F001368CF /* bench.png */,
@@ -228,7 +227,6 @@
 				4D4696CE18157D4F001368CF /* login_tabbar_icon.png */,
 				4D4696CF18157D4F001368CF /* MACRO.h */,
 				4D4696D018157D4F001368CF /* pictureframe.png */,
-				4D4696D118157D4F001368CF /* placeholder.png */,
 				4D4696D218157D4F001368CF /* Polaroid.png */,
 				4D46969518157C4E001368CF /* Supporting Files */,
 			);
@@ -343,19 +341,17 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4D4696D318157D6B001368CF /* background.png in Resources */,
-				4D4696D418157D6B001368CF /* bench.png in Resources */,
-				4D4696D518157D6B001368CF /* button.png in Resources */,
-				4D4696D618157D6B001368CF /* close.png in Resources */,
-				4D4696D718157D6B001368CF /* connect_btn.png in Resources */,
-				4D4696D818157D6B001368CF /* KeyIos.png in Resources */,
-				4D4696D918157D6B001368CF /* login_background.png in Resources */,
-				4D4696DA18157D6B001368CF /* login_tabbar_icon.png in Resources */,
-				4D4696DB18157D6B001368CF /* MACRO.h in Resources */,
-				4D4696DC18157D6B001368CF /* pictureframe.png in Resources */,
-				4D4696DD18157D6B001368CF /* placeholder.png in Resources */,
-				4D4696DE18157D6B001368CF /* Polaroid.png in Resources */,
-				4D46969918157C4E001368CF /* InfoPlist.strings in Resources */,
+				4DDB489F1816791B00993975 /* background.png in Resources */,
+				4DDB48A01816791B00993975 /* bench.png in Resources */,
+				4DDB48A11816791B00993975 /* button.png in Resources */,
+				4DDB48A21816791B00993975 /* close.png in Resources */,
+				4DDB48A31816791B00993975 /* connect_btn.png in Resources */,
+				4DDB48A41816791B00993975 /* KeyIos.png in Resources */,
+				4DDB48A51816791B00993975 /* login_background.png in Resources */,
+				4DDB48A61816791B00993975 /* login_tabbar_icon.png in Resources */,
+				4DDB48A71816791B00993975 /* MACRO.h in Resources */,
+				4DDB48A81816791B00993975 /* pictureframe.png in Resources */,
+				4DDB48A91816791B00993975 /* Polaroid.png in Resources */,
 				4D4696A218157C84001368CF /* login_view.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

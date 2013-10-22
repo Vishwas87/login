@@ -32,6 +32,7 @@
         urls = [[NSMutableArray alloc]init];
         index = 0;
         mask = NULL;
+        bundle = nibBundleOrNil;
         
     }
     return self;
@@ -136,7 +137,17 @@
                 UIImageView *img = [[UIImageView alloc] initWithFrame:CGRectMake((scroll.frame.size.width ) * idx, 0, scroll.frame.size.width  , scroll.frame.size.height )];
                 
                 [images insertObject:img atIndex:idx];
-                [img setImageWithURL:ul placeholderImage:[UIImage imageNamed:@"placeholder.png"]];
+                
+                
+                
+
+                
+                
+                UIImage *imageFromMyLibraryBundle = [UIImage imageWithContentsOfFile:[[bundle resourcePath] stringByAppendingPathComponent:@"placeholder.png"]];
+
+                
+                [img setImageWithURL:ul placeholderImage:imageFromMyLibraryBundle];
+                imageFromMyLibraryBundle = NULL;
                 
                 //Bordi arrotondati
                 CALayer * l = [img layer];

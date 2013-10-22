@@ -12,6 +12,7 @@
 #import <AFNetworkReachabilityManager.h>
 #import <UIImageView+AFNetworking.h>
 
+
 @protocol login_view_protocol<NSObject>
 
 -(void)loginSuccess:(NSMutableDictionary*)response; //Method executed after a succeful login
@@ -30,7 +31,7 @@
     int number_images;//Numero di immagini pubblicità
     BOOL login_show; //Flag che indica che la maschera di login è stata visualizzata
     UIView *mask; //Maschera per il modale
-    
+    NSBundle *bundle;//Visto che gira all'interno di un altro project devo cambiare bundle
     IBOutlet UIScrollView *scroll;
     IBOutlet UIImageView *framePicture;
     IBOutlet UIView *loginView;
